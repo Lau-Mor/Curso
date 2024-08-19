@@ -1,0 +1,76 @@
+/* colores:
+    #506367
+    #000000
+    #FFFFFF
+    #ee8122
+*/
+
+
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #506367;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+a {
+    color: #ee8122;
+    font-size: 20px;
+}
+
+form {
+    color: #ee8122;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a > img {
+	width: 40px;
+}
+
+form {
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    background-color: #000000;
+    margin-bottom: 70px;
+}
+
+#contacto {
+    margin-top: 50px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.uno {
+    background-image: url(imagenes/close-up-veterinarian-taking-care-dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto {
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
